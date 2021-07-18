@@ -1,3 +1,6 @@
+#   Input: a string and a pattern
+#   Output: the number of times that pattern occurs in the string
+
 def pattern_count(str, pattern):
     count = 0
     # for example, if the pattern was 3 letters long and the text was 6, 6-3 = 3, but since range is non-exclusive of the final number, you add 1
