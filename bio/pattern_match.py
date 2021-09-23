@@ -1,5 +1,7 @@
 pattern = 'ATAT'
 genome = 'GATATATGCATATACTT'
+#   input: a pattern and a string (genome)
+#   output: the positions at which the pattern appears in the string/genome.
 
 def pattern_match(pattern, genome):
     positions = []
